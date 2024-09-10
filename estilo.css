@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(13, 13, 39);
+  color: white;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+.header {
+  display: flex;
+  padding: 20px;
+}
+
+.header_btn button {
+  background-color: royalblue;
+  padding: 10px 30px;
+  border-radius: 7px;
+  border: none;
+  margin: 30px 0;
+  cursor: pointer;
+}
+
+.header_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicios {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nosotros h2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
